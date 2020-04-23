@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 2,
-  "agentName": "willkeworld",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/CQAcPT3yUVOLtL58tqewXLkxzhiJ0hrwgiSWQQbQODjGOScbZH/",
-  "gitHubUrl": "https://github.com/brucewillke/airconnect-docker",
-  "workFolder": "_work"
-}
