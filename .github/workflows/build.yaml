@@ -1,3 +1,5 @@
-docker build -t airconnect:0.1 .
-
-runs-on: self-hosted
+name: 'Air connect docker build'
+description: 'build the docker file'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
