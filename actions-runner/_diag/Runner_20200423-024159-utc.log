@@ -1,0 +1,217 @@
+[2020-04-23 02:41:59Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO HostContext] Well known config file 'Credentials': '/home/bruce/docker-airconnect/actions-runner/.credentials'
+[2020-04-23 02:41:59Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2020-04-23 02:41:59Z INFO Listener] RuntimeInformation: Linux 4.15.0-96-generic #97-Ubuntu SMP Wed Apr 1 03:25:46 UTC 2020.
+[2020-04-23 02:41:59Z INFO Listener] Version: 2.169.1
+[2020-04-23 02:41:59Z INFO Listener] Commit: 4f840647b375b65a4efa361abc1b84f783442de6
+[2020-04-23 02:41:59Z INFO Listener] Culture: en-US
+[2020-04-23 02:41:59Z INFO Listener] UI Culture: en-US
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO Listener] Validating directory permissions for: '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO CommandLineParser] Parse
+[2020-04-23 02:41:59Z INFO CommandLineParser] Parsing 5 args
+[2020-04-23 02:41:59Z INFO CommandLineParser] parsing argument
+[2020-04-23 02:41:59Z INFO CommandLineParser] HasArgs: False
+[2020-04-23 02:41:59Z INFO CommandLineParser] Adding Command: configure
+[2020-04-23 02:41:59Z INFO CommandLineParser] parsing argument
+[2020-04-23 02:41:59Z INFO CommandLineParser] HasArgs: True
+[2020-04-23 02:41:59Z INFO CommandLineParser] arg: url
+[2020-04-23 02:41:59Z INFO CommandLineParser] parsing argument
+[2020-04-23 02:41:59Z INFO CommandLineParser] HasArgs: True
+[2020-04-23 02:41:59Z INFO CommandLineParser] Adding option 'url': 'https://github.com/brucewillke/airconnect-docker'
+[2020-04-23 02:41:59Z INFO CommandLineParser] parsing argument
+[2020-04-23 02:41:59Z INFO CommandLineParser] HasArgs: True
+[2020-04-23 02:41:59Z INFO CommandLineParser] arg: token
+[2020-04-23 02:41:59Z INFO CommandLineParser] parsing argument
+[2020-04-23 02:41:59Z INFO CommandLineParser] HasArgs: True
+[2020-04-23 02:41:59Z INFO CommandLineParser] Adding option 'token': '***'
+[2020-04-23 02:41:59Z INFO Listener] Arguments parsed
+[2020-04-23 02:41:59Z INFO Runner] ExecuteCommand
+[2020-04-23 02:41:59Z INFO ConfigurationStore] currentAssemblyLocation: /home/bruce/docker-airconnect/actions-runner/bin/Runner.Listener.dll
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] binPath: /home/bruce/docker-airconnect/actions-runner/bin
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] RootFolder: /home/bruce/docker-airconnect/actions-runner
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO HostContext] Well known config file 'Runner': '/home/bruce/docker-airconnect/actions-runner/.runner'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] ConfigFilePath: /home/bruce/docker-airconnect/actions-runner/.runner
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO HostContext] Well known config file 'Credentials': '/home/bruce/docker-airconnect/actions-runner/.credentials'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] CredFilePath: /home/bruce/docker-airconnect/actions-runner/.credentials
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/bruce/docker-airconnect/actions-runner/.credentials_migrated'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] MigratedCredFilePath: /home/bruce/docker-airconnect/actions-runner/.credentials_migrated
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:41:59Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:41:59Z INFO HostContext] Well known config file 'Service': '/home/bruce/docker-airconnect/actions-runner/.service'
+[2020-04-23 02:41:59Z INFO ConfigurationStore] ServiceConfigFilePath: /home/bruce/docker-airconnect/actions-runner/.service
+[2020-04-23 02:41:59Z INFO CommandSettings] Flag 'help': 'False'
+[2020-04-23 02:41:59Z INFO CommandSettings] Flag 'version': 'False'
+[2020-04-23 02:41:59Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-04-23 02:41:59Z INFO CommandSettings] Command 'configure': 'True'
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE: |                       
+[2020-04-23 02:41:59Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE:                         |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-04-23 02:41:59Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-04-23 02:41:59Z INFO ConfigurationManager] ConfigureAsync
+[2020-04-23 02:41:59Z INFO ConfigurationStore] IsConfigured()
+[2020-04-23 02:41:59Z INFO ConfigurationStore] IsConfigured: False
+[2020-04-23 02:41:59Z INFO ConfigurationManager] Is configured: False
+[2020-04-23 02:41:59Z INFO CommandSettings] Arg 'url': 'https://github.com/brucewillke/airconnect-docker'
+[2020-04-23 02:41:59Z INFO CommandSettings] Remove url from Arg dictionary.
+[2020-04-23 02:41:59Z INFO CommandSettings] Arg 'token': '***'
+[2020-04-23 02:41:59Z INFO CommandSettings] Remove token from Arg dictionary.
+[2020-04-23 02:42:00Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2020-04-23 02:42:00Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2020-04-23 02:42:00Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:00Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:42:00Z INFO ConfigurationManager] Test Connection complete.
+[2020-04-23 02:42:00Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:42:00Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:00Z INFO HostContext] Well known config file 'RSACredentials': '/home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams'
+[2020-04-23 02:42:00Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-04-23 02:42:01Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams
+[2020-04-23 02:42:01Z INFO RSAFileKeyManager] Which: 'chmod'
+[2020-04-23 02:42:01Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2020-04-23 02:42:01Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:42:01Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Working directory: '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 34982.
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] System.IO.DirectoryNotFoundException: Could not find a part of the path '/proc/34982/oom_score_adj'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at GitHub.Runner.Sdk.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] Process started with process id 34982, waiting for process exit.
+[2020-04-23 02:42:01Z INFO ProcessInvokerWrapper] Finished process 34982 with exit code 0, and elapsed time 00:00:00.0192151.
+[2020-04-23 02:42:01Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams
+[2020-04-23 02:42:01Z INFO ConfigurationManager] Found a private pool with id {1} and name {2} 1, Default
+[2020-04-23 02:42:01Z INFO CommandSettings] Arg 'name': ''
+[2020-04-23 02:42:01Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-23 02:42:01Z INFO PromptManager] ReadValue
+[2020-04-23 02:42:01Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-04-23 02:42:01Z INFO Terminal] WRITE: [press Enter for willkeworld] 
+[2020-04-23 02:42:01Z INFO Terminal] READ LINE
+[2020-04-23 02:42:07Z INFO Terminal] Read value: ''
+[2020-04-23 02:42:07Z INFO PromptManager] Falling back to the default: 'willkeworld'
+[2020-04-23 02:42:07Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:42:07Z INFO CommandSettings] Arg 'labels': ''
+[2020-04-23 02:42:07Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-23 02:42:07Z INFO PromptManager] ReadValue
+[2020-04-23 02:42:07Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2020-04-23 02:42:07Z INFO Terminal] WRITE: [press Enter to skip] 
+[2020-04-23 02:42:07Z INFO Terminal] READ LINE
+[2020-04-23 02:42:09Z INFO Terminal] Read value: ''
+[2020-04-23 02:42:09Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:42:10Z INFO ConfigurationManager] Agent server url resolve by server: 'https://pipelines.actions.githubusercontent.com/CQAcPT3yUVOLtL58tqewXLkxzhiJ0hrwgiSWQQbQODjGOScbZH/'.
+[2020-04-23 02:42:10Z INFO ConfigurationStore] Saving OAuth credential @ /home/bruce/docker-airconnect/actions-runner/.credentials
+[2020-04-23 02:42:10Z INFO ConfigurationStore] Credentials Saved.
+[2020-04-23 02:42:10Z INFO ConfigurationStore] HasCredentials()
+[2020-04-23 02:42:10Z INFO ConfigurationStore] stored True
+[2020-04-23 02:42:10Z INFO CredentialManager] GetCredentialProvider
+[2020-04-23 02:42:10Z INFO CredentialManager] Creating type OAuth
+[2020-04-23 02:42:10Z INFO CredentialManager] Creating credential type: OAuth
+[2020-04-23 02:42:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams
+[2020-04-23 02:42:10Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:10Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:10Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-04-23 02:42:10Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: e585a41b-1da1-4517-a0a9-564752a77d8d
+ActivityId: d9935388-75f2-4353-bde8-f838aba83d78
+X-TFS-Session: 42628649-901b-4d8d-9b42-fbdfd949106c
+X-VSS-E2EID: 8092c6a9-eb5a-4936-96ed-8066d1605542
+X-VSS-SenderDeploymentId: 193695a0-0dcd-ade4-f810-b10ad24a9829
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 63B5A1CDEAED4563BDFC205DF30A0600 Ref B: ASHEDGE1016 Ref C: 2020-04-23T02:42:10Z
+Date: Thu, 23 Apr 2020 02:42:10 GMT
+
+[2020-04-23 02:42:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams
+[2020-04-23 02:42:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/bruce/docker-airconnect/actions-runner/.credentials_rsaparams
+[2020-04-23 02:42:10Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-04-23 02:42:10Z INFO CommandSettings] Arg 'work': ''
+[2020-04-23 02:42:10Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-04-23 02:42:10Z INFO PromptManager] ReadValue
+[2020-04-23 02:42:10Z INFO Terminal] WRITE: Enter name of work folder: 
+[2020-04-23 02:42:10Z INFO Terminal] WRITE: [press Enter for _work] 
+[2020-04-23 02:42:10Z INFO Terminal] READ LINE
+[2020-04-23 02:42:12Z INFO Terminal] Read value: ''
+[2020-04-23 02:42:12Z INFO PromptManager] Falling back to the default: '_work'
+[2020-04-23 02:42:12Z INFO ConfigurationStore] Saving runner settings.
+[2020-04-23 02:42:12Z INFO ConfigurationStore] Settings Saved.
+[2020-04-23 02:42:12Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:42:12Z INFO Terminal] WRITE LINE: 
+[2020-04-23 02:42:12Z INFO SystemDControlManager] Service name 'actions.runner.brucewillke-airconnect-docker.willkeworld.service' display name 'GitHub Actions Runner (brucewillke-airconnect-docker.willkeworld)' will be used for service configuration.
+[2020-04-23 02:42:12Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:42:12Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:12Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:42:12Z INFO HostContext] Well known directory 'Bin': '/home/bruce/docker-airconnect/actions-runner/bin'
+[2020-04-23 02:42:12Z INFO HostContext] Well known directory 'Root': '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:12Z INFO UnixUtil] Which: 'chmod'
+[2020-04-23 02:42:12Z INFO UnixUtil] Location: '/bin/chmod'
+[2020-04-23 02:42:12Z INFO UnixUtil] Running /bin/chmod 755 "/home/bruce/docker-airconnect/actions-runner/svc.sh"
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] Starting process:
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/bruce/docker-airconnect/actions-runner/svc.sh"'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/bruce/docker-airconnect/actions-runner'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 35420.
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] Process started with process id 35420, waiting for process exit.
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2020-04-23 02:42:12Z INFO ProcessInvokerWrapper] Finished process 35420 with exit code 0, and elapsed time 00:00:00.0043071.
