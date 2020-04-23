@@ -1,4 +1,3 @@
-name: Build Docker
 name: Build and Publish Docker
 on: [push]
 jobs:
