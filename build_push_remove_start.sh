@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-TAG=$1
+[ -z "$TAG" ] && TAG=latest
 
 echo "#### Building airconnect ${TAG} ####"
 docker build -t airconnect:${TAG} . --no-cache &&
