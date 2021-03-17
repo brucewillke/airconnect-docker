@@ -6,6 +6,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN groupadd airconnect && useradd airconnect -s /sbin/nologin -g airconnect -m
 
 COPY supervisord.conf /etc
+COPY config.xml /home/airconnect
 USER airconnect
 
 # Download AirConnect
