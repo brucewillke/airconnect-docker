@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 # Add Supervisor
-RUN apt-get update && apt-get install --no-install-recommends -y supervisor wget apt-utils ca-certificates
+RUN apt-get update && apt-get install --no-install-recommends -y supervisor wget apt-utils ca-certificates 
 RUN rm -rf /var/lib/apt/lists/* 
 RUN groupadd airconnect && useradd airconnect -s /sbin/nologin -g airconnect -m
 
