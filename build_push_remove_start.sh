@@ -3,6 +3,14 @@
 set -e
 [ -z "$TAG" ] && TAG=latest
 
+FILE=Dockerfile
+if [[ -f "$FILE" ]]; then
+    echo "$FILE exists."
+else
+    echo "No $FILE found"
+    exit 1
+fi
+
 echo "#### Building airconnect ${TAG} ####"
 docker build -t airconnect:${TAG} . --no-cache &&
 
