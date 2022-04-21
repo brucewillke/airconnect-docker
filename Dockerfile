@@ -16,7 +16,7 @@ RUN wget --no-check-certificate --output-document=/home/airconnect/aircast-x86-6
 
 
 ADD https://mayhem4api.forallsecure.com/downloads/cli/latest/linux-musl/mapi /usr/bin/mapi
-RUN chmod 0755 /usr/bin/mapi
+#RUN chmod 0755 /usr/bin/mapi
 
 
 ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
